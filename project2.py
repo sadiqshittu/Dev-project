@@ -4,6 +4,7 @@ class MazeGenerator:
   def __init__(self, width, height):
     self.width = width
     self.height = height
+    self.solution_path = []
     self.maze = [['#' for _ in range(width)] for _ in range(height)]
     
   def generate_maze(self):
