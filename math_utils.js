@@ -2,6 +2,7 @@ function add(a, b) {
   return a + b;
 }
 
+// Multiplies two numbers
 function multiply(a, b) {
   return a * b;
 }

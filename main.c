@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+// Returns the square of an integer
 int square(int n) {
     return n * n;
 }
