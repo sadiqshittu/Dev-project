@@ -13,4 +13,8 @@ func factorial(n int) int {
 
 func main() {
     fmt.Println("Factorial of 5 is", factorial(5))
+
+    // Add some more interesting cases
+    fmt.Println("Factorial of 0 is", factorial(0))
+    fmt.Println("Factorial of 120 is", factorial(120))
 }
